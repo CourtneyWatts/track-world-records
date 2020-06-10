@@ -1,0 +1,41 @@
+.Record {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    background-color: rgb(182, 182, 182);
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  .Record-name {
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .Record-time {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .Record-age {
+    font-style: italic;
+    color: dimgrey;
+    margin-bottom: 20px;
+  }
+  .Record-details {
+    span {
+      font-weight: 600;
+    }
+    li {
+      border: 1px solid lightgrey;
+      padding: 5px;
+    }
+  }
+}
