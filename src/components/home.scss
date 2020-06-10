@@ -1,0 +1,18 @@
+.Home {
+  color: grey;
+  .Home-btn-section {
+    display: flex;
+    justify-content: center;
+    .Home-gender-btn {
+      padding: 3px 8px;
+      background-color: darksalmon;
+      margin: 0 10px;
+      border-radius: 3px;
+    }
+  }
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}

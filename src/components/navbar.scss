@@ -1,0 +1,17 @@
+.Navbar {
+  background-color: antiquewhite;
+  color: darkgray;
+  .Navbar-items {
+      display: flex;
+      justify-content: space-between;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    li {
+      display: inline;
+    }
+  }
+}
