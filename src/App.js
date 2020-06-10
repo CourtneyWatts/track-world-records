@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Navbar from './components/Navbar'
+import { Switch, Route } from 'react-router-dom'
+import Home from './components/Home'
+import Events from './components/Events'
+import Record from './components/Record'
+import dataset from './data/dataset'
+import '../src/App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  static defaultProps = {
+    records: dataset,
+  }
+  render() {
+    return (
+      <div className='App'>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route
+            exact
+            path='/:gender'
+            render={(routeProps) => (
+              <Events {...routeProps} events={this.props.records} />
+            )}
+          />
+          <Route
+            exact
+            path='/:gender/:event'
+            render={(routeProps) => (
+              <Record {...routeProps} records={this.props.records} />
+            )}
+          />
+        </Switch>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
