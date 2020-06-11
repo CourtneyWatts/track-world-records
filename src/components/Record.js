@@ -26,21 +26,22 @@ class Record extends Component {
               </div>
             </div>
             <div className='row mt-5'>
-              <div className='col-3'>
+              <div className='col-12 col-sm-5 col-lg-3'>
                 <div className='row'>
-                  <div className='col-2'>
+                  <div className='col-1 col-sm-2'>
                     <SVG src={`/flags/${event.wonFor}.svg`} />
                   </div>
-                  <div className='col-10'>
+                  <div className='col-11 col-sm-10'>
                     <p className='Record-name'>{event.recordHolder}</p>
                   </div>
                 </div>
-                <div className='Record-holder'>
+                <div className='d-flex align-items-baseline'>
+                  <SVG src={`/icons/stopwatch.svg`} />
                   <p className='Record-time'>{event.record}</p>
                 </div>
               </div>
 
-              <div className='col-5'>
+              <div className='col-12 col-sm-7 col-lg-5'>
                 <div className='Record-details'>
                   <ul>
                     <li>
@@ -53,8 +54,7 @@ class Record extends Component {
                       <span>Date Set:</span> {event.dateSet}
                     </li>
                     <li>
-                      <span>Previous record holder:</span>{' '}
-                      {event.previousRecordHolder}
+                      <span>Previous holder:</span> {event.previousRecordHolder}
                     </li>
                     <li>
                       <span>Previous world record:</span> {event.previousRecord}
@@ -62,7 +62,7 @@ class Record extends Component {
                   </ul>
                 </div>
               </div>
-              <div className='col-4'>
+              <div className='col col-sm-8 offset-sm-2 col-md-6 offset-md-3 offset-lg-0 col-lg-4'>
                 <img src={event.image} />
               </div>
             </div>

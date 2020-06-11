@@ -7,6 +7,12 @@
   img {
     width: 100%;
     background-color: rgb(182, 182, 182);
+    @media only screen and (max-width: 992px) {
+      margin-top: 20px;
+    }
+    @media only screen and (max-width: 500px) {
+        margin-top: 0;
+      }
   }
   svg {
     width: 30px;

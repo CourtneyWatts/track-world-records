@@ -7,8 +7,19 @@ class Home extends Component {
   render() {
     console.log('test')
     return (
-      <div className='Home container-fluid p-0'>
-        <img src={Hero} />
+      <div className='Home'>
+        <div
+          className='container-fluid hero d-flex justify-content-center align-items-center'
+          style={{
+            backgroundImage: `url(${Hero})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <h1 className='Home-title'>The Fastest Times Ever</h1>
+        </div>
+
         <div className='container'>
           <div className='row'>
             <div className='col-12'>
@@ -21,12 +32,12 @@ class Home extends Component {
                 not take a look at staggering world records Which category do
                 you want to view select a category below to continue
               </p>
-              <h2 className='text-center mt-5'>Choose a category ?</h2>
+              <h2 className='text-center mt-5 Home-category-title'>Choose a category ?</h2>
               <div className='Home-btn-section mt-5'>
-                <Link className='btn btn-outline-secondary mr-5' to='/men'>
+                <Link className='button men' to='/men'>
                   Men
                 </Link>
-                <Link className='btn btn-outline-secondary ml-5' to='/women'>
+                <Link className='button women' to='/women'>
                   Women
                 </Link>
               </div>
