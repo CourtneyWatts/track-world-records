@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/track-world-records/static/css/main.da507aa7.chunk.css",
+    "main.js": "/track-world-records/static/js/main.342f9967.chunk.js",
+    "main.js.map": "/track-world-records/static/js/main.342f9967.chunk.js.map",
+    "runtime-main.js": "/track-world-records/static/js/runtime-main.a1ed003f.js",
+    "runtime-main.js.map": "/track-world-records/static/js/runtime-main.a1ed003f.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/track-world-records/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6872f725.chunk.js": "/track-world-records/static/js/2.6872f725.chunk.js",
+    "static/js/2.6872f725.chunk.js.map": "/track-world-records/static/js/2.6872f725.chunk.js.map",
+    "index.html": "/track-world-records/index.html",
+    "precache-manifest.b8a81ce2e710bf0350fbb779bb6db258.js": "/track-world-records/precache-manifest.b8a81ce2e710bf0350fbb779bb6db258.js",
+    "service-worker.js": "/track-world-records/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/track-world-records/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.da507aa7.chunk.css.map": "/track-world-records/static/css/main.da507aa7.chunk.css.map",
+    "static/js/2.6872f725.chunk.js.LICENSE.txt": "/track-world-records/static/js/2.6872f725.chunk.js.LICENSE.txt",
+    "static/media/Almaz_Ayana.18373466.jpg": "/track-world-records/static/media/Almaz_Ayana.18373466.jpg",
+    "static/media/Bekele.c72d4d98.jpg": "/track-world-records/static/media/Bekele.c72d4d98.jpg",
+    "static/media/David_Rudisha.c873bdf3.jpg": "/track-world-records/static/media/David_Rudisha.c873bdf3.jpg",
+    "static/media/Flo_Jo.814f37c9.jpg": "/track-world-records/static/media/Flo_Jo.814f37c9.jpg",
+    "static/media/Genzebe_Dibaba.0ae5b5c6.jpg": "/track-world-records/static/media/Genzebe_Dibaba.0ae5b5c6.jpg",
+    "static/media/Guerrouj.28c02b4b.jpg": "/track-world-records/static/media/Guerrouj.28c02b4b.jpg",
+    "static/media/Jarmila_Kratochvlov.709cf2ef.jpg": "/track-world-records/static/media/Jarmila_Kratochvlov.709cf2ef.jpg",
+    "static/media/Marita_Koch.b67369c9.jpg": "/track-world-records/static/media/Marita_Koch.b67369c9.jpg",
+    "static/media/Tirunesh_Dibaba.bebdc1f3.jpg": "/track-world-records/static/media/Tirunesh_Dibaba.bebdc1f3.jpg",
+    "static/media/Usain_Bolt.07a91513.jpg": "/track-world-records/static/media/Usain_Bolt.07a91513.jpg",
+    "static/media/Wayde_Van_Niekerk.67178695.jpg": "/track-world-records/static/media/Wayde_Van_Niekerk.67178695.jpg",
+    "static/media/hero.85e8b46e.jpg": "/track-world-records/static/media/hero.85e8b46e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1ed003f.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6872f725.chunk.js",
+    "static/css/main.da507aa7.chunk.css",
+    "static/js/main.342f9967.chunk.js"
+  ]
+}
