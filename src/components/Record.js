@@ -76,7 +76,7 @@ class Record extends Component {
                 </div>
               </div>
               <div className='col col-sm-8 offset-sm-2 col-md-6 offset-md-3 offset-lg-0 col-lg-4'>
-                <img src={event.image} />
+                <img className='athlete-image' alt={event.name} src={event.image} />
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from './components/Navbar'
+import Navigation from './components/Navigation'
 import { Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Events from './components/Events'
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Navbar />
+        <Navigation />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route

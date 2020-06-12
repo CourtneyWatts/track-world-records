@@ -55,4 +55,9 @@
       padding: 5px;
     }
   }
+  .athlete-image {
+    @media only screen and (max-width: 992px) {
+      margin-bottom: 50px;
+    }
+  }
 }

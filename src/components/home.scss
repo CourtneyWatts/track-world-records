@@ -1,4 +1,5 @@
 .Home {
+  height: 100vh;
   color: grey;
   .Home-title {
     color: white;
@@ -18,6 +19,7 @@
   }
 
   .Home-btn-section {
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     .Home-gender-btn {

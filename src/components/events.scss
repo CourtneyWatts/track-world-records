@@ -2,7 +2,7 @@
   color: white;
   font-weight: 600;
   font-size: 35px;
-  background-color: darkslategrey;
+  background-color: rgb(167, 167, 167);
   border-radius: 50%;
   width: 165px;
   height: 165px;
@@ -10,13 +10,20 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  overflow: hidden;
+  span {
+    border-top: 4px white solid;
+    border-bottom: 4px white solid;
+    padding: 3px 40px;
+  }
+
   @media only screen and (max-width: 767px) {
     width: 130px;
     height: 130px;
     font-size: 30px;
   }
-  &:hover{
-      text-decoration: none;
-      color: white;
+  &:hover {
+    text-decoration: none;
+    color: white;
   }
 }

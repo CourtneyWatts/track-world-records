@@ -5,12 +5,15 @@ import App from './App'
 import { HashRouter } from 'react-router-dom'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ScrollToTop from 'react-router-scroll-top'
 
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <HashRouter>
-    <App />
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
   </HashRouter>,
   document.getElementById('root')
 )

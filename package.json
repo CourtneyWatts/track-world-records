@@ -20,9 +20,11 @@
     "react-inlinesvg": "^1.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
+    "react-router-scroll-top": "^0.2.1",
     "react-scripts": "3.4.1",
     "react-svg": "^11.0.25",
     "react-world-flags": "^1.3.0",
+    "reactstrap": "^8.4.1",
     "typescript": "^3.9.5"
   },
   "scripts": {

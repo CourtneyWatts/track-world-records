@@ -9,9 +9,14 @@ class Events extends Component {
     ].map((ev) => (
       <Event name={ev.event} gender={this.props.match.params.gender} />
     ))
+
     return (
       <div className='Events mt-5'>
-        <div className='container'>
+        <div className='container text-center'>
+          <h3 className='mb-5'>
+            {this.props.match.params.gender === 'men' ? 'Mens ' : 'Womens '}
+            World Records
+          </h3>
           <div className='row'>{events}</div>
         </div>
       </div>

@@ -22,17 +22,24 @@ class Home extends Component {
 
         <div className='container'>
           <div className='row'>
-            <div className='col-12'>
+            <div className='col-12 text-center'>
               <p className='mt-5'>
-                Welcome to my 'World Records' site. On this site, I have
-                captured the biggest track world records, along with other
-                interesting data to go along with each entry. The plan is to add
-                to my current list bringing you more world records and more
-                interesing supporting data as this site matures. For now, why
-                not take a look at staggering world records Which category do
-                you want to view select a category below to continue
+                Welcome to my 'World Records' site, chronicling athletics most
+                infamous world records.
               </p>
-              <h2 className='text-center mt-5 Home-category-title'>Choose a category ?</h2>
+              <p>
+                On this site you can explore the biggest world records in
+                athletics, along their record holders, location set and other
+                interesting pieces of information.
+              </p>
+              <p>
+                As time passes, I aim to bring you more world records along with
+                more interesing supporting data. For now, why not have a browse
+                of the current world records I have on the site.
+              </p>
+              <h2 className='text-center mt-5 Home-category-title'>
+                Choose a category ?
+              </h2>
               <div className='Home-btn-section mt-5'>
                 <Link className='button men' to='/men'>
                   Men
