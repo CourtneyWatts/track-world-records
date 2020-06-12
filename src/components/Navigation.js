@@ -9,6 +9,8 @@ import {
   NavLink,
   NavItem,
 } from 'reactstrap'
+import { ReactComponent as Logo } from '../images/icons/logo.svg'
+
 import './navbar.scss'
 
 class Navigation extends Component {
@@ -41,6 +43,7 @@ class Navigation extends Component {
         <Navbar color='dark' dark expand='md'>
           <NavbarBrand>
             <NavLink tag={Link} exact to='/'>
+              <Logo/>
               World Records
             </NavLink>
           </NavbarBrand>
