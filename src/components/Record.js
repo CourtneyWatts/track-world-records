@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import '../components/record.scss'
-import SVG from 'react-inlinesvg'
+import { ReactComponent as Stopwatch } from '../images/icons/stopwatch.svg'
+import { ReactComponent as Eastgermany } from '../images/flags/East_Germany.svg'
+import { ReactComponent as Czechrepublic } from '../images/flags/Czech_Republic.svg'
+
+import Flag from 'react-world-flags'
 
 class Record extends Component {
   render() {
@@ -9,6 +13,15 @@ class Record extends Component {
       (ev) => ev.event === this.props.match.params.event
     )
     const event = allEvents[eventIndex]
+    const flag = () => {
+      if (event.wonFor === 'East_Germany') {
+        return <Eastgermany />
+      } else if (event.wonFor === 'Czech_Republic'){
+        return <Czechrepublic />
+      } else {
+        return <Flag className='flag' code={event.wonFor} />
+      }
+    }
 
     // Add in redirect if event is not found
     return (
@@ -29,14 +42,14 @@ class Record extends Component {
               <div className='col-12 col-sm-5 col-lg-3'>
                 <div className='row'>
                   <div className='col-1 col-sm-2'>
-                    <SVG src={`/flags/${event.wonFor}.svg`} />
+                    {flag()}
                   </div>
                   <div className='col-11 col-sm-10'>
                     <p className='Record-name'>{event.recordHolder}</p>
                   </div>
                 </div>
                 <div className='d-flex align-items-baseline'>
-                  <SVG src={`/icons/stopwatch.svg`} />
+                  <Stopwatch />
                   <p className='Record-time'>{event.record}</p>
                 </div>
               </div>

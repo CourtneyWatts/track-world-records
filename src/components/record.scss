@@ -11,8 +11,11 @@
       margin-top: 20px;
     }
     @media only screen and (max-width: 500px) {
-        margin-top: 0;
-      }
+      margin-top: 20px;
+    }
+  }
+  .flag {
+    width: 30px;
   }
   svg {
     width: 30px;
