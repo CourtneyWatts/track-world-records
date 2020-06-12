@@ -16,15 +16,23 @@
   }
   .flag {
     width: 30px;
+    margin-top: 0;
+    @media only screen and (max-width: 500px) {
+      margin-right: 9px;
+    }
   }
   svg {
     width: 30px;
     height: 30px;
+    @media only screen and (max-width: 500px) {
+      margin-right: 9px;
+    }
   }
   .Record-name {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 800;
     font-style: italic;
+    line-height: 30px;
   }
   .Record-time {
     font-size: 36px;
