@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/track-world-records/static/css/main.fe30e073.chunk.css",
-    "main.js": "/track-world-records/static/js/main.c5270f6b.chunk.js",
-    "main.js.map": "/track-world-records/static/js/main.c5270f6b.chunk.js.map",
+    "main.css": "/track-world-records/static/css/main.b9dae8da.chunk.css",
+    "main.js": "/track-world-records/static/js/main.284090ff.chunk.js",
+    "main.js.map": "/track-world-records/static/js/main.284090ff.chunk.js.map",
     "runtime-main.js": "/track-world-records/static/js/runtime-main.a1ed003f.js",
     "runtime-main.js.map": "/track-world-records/static/js/runtime-main.a1ed003f.js.map",
     "static/css/2.af3c1da9.chunk.css": "/track-world-records/static/css/2.af3c1da9.chunk.css",
     "static/js/2.fa3d34f1.chunk.js": "/track-world-records/static/js/2.fa3d34f1.chunk.js",
     "static/js/2.fa3d34f1.chunk.js.map": "/track-world-records/static/js/2.fa3d34f1.chunk.js.map",
     "index.html": "/track-world-records/index.html",
-    "precache-manifest.895243e8af15597f872b664e84634f76.js": "/track-world-records/precache-manifest.895243e8af15597f872b664e84634f76.js",
+    "precache-manifest.0474de564cd4313524a568c21d54dbd5.js": "/track-world-records/precache-manifest.0474de564cd4313524a568c21d54dbd5.js",
     "service-worker.js": "/track-world-records/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/track-world-records/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fe30e073.chunk.css.map": "/track-world-records/static/css/main.fe30e073.chunk.css.map",
+    "static/css/main.b9dae8da.chunk.css.map": "/track-world-records/static/css/main.b9dae8da.chunk.css.map",
     "static/js/2.fa3d34f1.chunk.js.LICENSE.txt": "/track-world-records/static/js/2.fa3d34f1.chunk.js.LICENSE.txt",
     "static/media/Almaz_Ayana.18373466.jpg": "/track-world-records/static/media/Almaz_Ayana.18373466.jpg",
     "static/media/Bekele.c72d4d98.jpg": "/track-world-records/static/media/Bekele.c72d4d98.jpg",
@@ -28,13 +28,14 @@
     "static/media/Usain_Bolt.07a91513.jpg": "/track-world-records/static/media/Usain_Bolt.07a91513.jpg",
     "static/media/Wayde_Van_Niekerk.67178695.jpg": "/track-world-records/static/media/Wayde_Van_Niekerk.67178695.jpg",
     "static/media/hero.85e8b46e.jpg": "/track-world-records/static/media/hero.85e8b46e.jpg",
-    "static/media/stopwatch.8cf7a18b.svg": "/track-world-records/static/media/stopwatch.8cf7a18b.svg"
+    "static/media/stopwatch.8cf7a18b.svg": "/track-world-records/static/media/stopwatch.8cf7a18b.svg",
+    "static/media/tartan.d56e24b1.jpg": "/track-world-records/static/media/tartan.d56e24b1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a1ed003f.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.fa3d34f1.chunk.js",
-    "static/css/main.fe30e073.chunk.css",
-    "static/js/main.c5270f6b.chunk.js"
+    "static/css/main.b9dae8da.chunk.css",
+    "static/js/main.284090ff.chunk.js"
   ]
 }
