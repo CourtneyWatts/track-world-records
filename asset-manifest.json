@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/track-world-records/static/css/main.ef98e6bb.chunk.css",
+    "main.css": "/track-world-records/static/css/main.ddf36c55.chunk.css",
     "main.js": "/track-world-records/static/js/main.9ce425a7.chunk.js",
     "main.js.map": "/track-world-records/static/js/main.9ce425a7.chunk.js.map",
     "runtime-main.js": "/track-world-records/static/js/runtime-main.a1ed003f.js",
@@ -9,10 +9,10 @@
     "static/js/2.6293fdc6.chunk.js": "/track-world-records/static/js/2.6293fdc6.chunk.js",
     "static/js/2.6293fdc6.chunk.js.map": "/track-world-records/static/js/2.6293fdc6.chunk.js.map",
     "index.html": "/track-world-records/index.html",
-    "precache-manifest.ecbbdbde4c7fe3ddcc3561a5dcd19ee7.js": "/track-world-records/precache-manifest.ecbbdbde4c7fe3ddcc3561a5dcd19ee7.js",
+    "precache-manifest.2c024d8fd6f87a806eca660e97901b97.js": "/track-world-records/precache-manifest.2c024d8fd6f87a806eca660e97901b97.js",
     "service-worker.js": "/track-world-records/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/track-world-records/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.ef98e6bb.chunk.css.map": "/track-world-records/static/css/main.ef98e6bb.chunk.css.map",
+    "static/css/main.ddf36c55.chunk.css.map": "/track-world-records/static/css/main.ddf36c55.chunk.css.map",
     "static/js/2.6293fdc6.chunk.js.LICENSE.txt": "/track-world-records/static/js/2.6293fdc6.chunk.js.LICENSE.txt",
     "static/media/Almaz_Ayana.18373466.jpg": "/track-world-records/static/media/Almaz_Ayana.18373466.jpg",
     "static/media/Bekele.c72d4d98.jpg": "/track-world-records/static/media/Bekele.c72d4d98.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.a1ed003f.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.6293fdc6.chunk.js",
-    "static/css/main.ef98e6bb.chunk.css",
+    "static/css/main.ddf36c55.chunk.css",
     "static/js/main.9ce425a7.chunk.js"
   ]
 }
