@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "816f6e807ac1cc09dd7b294b446854b7",
+    "revision": "bdd046925c278cde1480d8ada69ce094",
     "url": "/track-world-records/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/track-world-records/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a368516545d8d035281e",
-    "url": "/track-world-records/static/css/main.ddf36c55.chunk.css"
+    "revision": "357090e4f49516f430b6",
+    "url": "/track-world-records/static/css/main.6285799a.chunk.css"
   },
   {
     "revision": "14b733c6664daf535d91",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/track-world-records/static/js/2.6293fdc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a368516545d8d035281e",
-    "url": "/track-world-records/static/js/main.9ce425a7.chunk.js"
+    "revision": "357090e4f49516f430b6",
+    "url": "/track-world-records/static/js/main.cc92d35a.chunk.js"
   },
   {
     "revision": "e162546296353ab70804",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ffd54dc84184a7abb12951338a27370",
     "url": "/track-world-records/static/media/hero.85e8b46e.jpg"
+  },
+  {
+    "revision": "192e18f76f802579b731a664844c5a9a",
+    "url": "/track-world-records/static/media/logo.192e18f7.svg"
   },
   {
     "revision": "8cf7a18bdcfb37e43eec783ddc6205b8",
