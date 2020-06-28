@@ -1,6 +1,6 @@
 ## Track-World-Records
 
-My Track World Records site has been built with React and uses React-Router, as well as bootstrap and react-world-flags packages
+My Track World Records site has been built with React and React-router, as well as bootstrap and react-world-flags packages.
 
 Working with a central world records dataset (that I created myself), you can view men and women world records, across a large list of track events.
 
